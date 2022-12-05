@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44833FADB83F98124B5B70B6 /* Pods_ALUIBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F969EE08BE0C513109B6B1 /* Pods_ALUIBasic.framework */; };
 		5E2EF50F293E48F100FD3ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EF50E293E48F100FD3ED1 /* AppDelegate.swift */; };
 		5E2EF511293E48F100FD3ED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EF510293E48F100FD3ED1 /* SceneDelegate.swift */; };
 		5E2EF513293E48F100FD3ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EF512293E48F100FD3ED1 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30F969EE08BE0C513109B6B1 /* Pods_ALUIBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALUIBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2EF50B293E48F100FD3ED1 /* ALUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2EF50E293E48F100FD3ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E2EF510293E48F100FD3ED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		5E2EF517293E48F200FD3ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2EF51A293E48F200FD3ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E2EF51C293E48F200FD3ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C6578658A4358FCAC80545 /* Pods-ALUIBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALUIBasic.release.xcconfig"; path = "Target Support Files/Pods-ALUIBasic/Pods-ALUIBasic.release.xcconfig"; sourceTree = "<group>"; };
+		8DBEA6C4DB5E228712FAAA88 /* Pods-ALUIBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALUIBasic.debug.xcconfig"; path = "Target Support Files/Pods-ALUIBasic/Pods-ALUIBasic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44833FADB83F98124B5B70B6 /* Pods_ALUIBasic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				5E2EF50D293E48F100FD3ED1 /* ALUIBasic */,
 				5E2EF50C293E48F100FD3ED1 /* Products */,
+				60B620C19DA10DB45649FC31 /* Pods */,
+				CA09C21A70A59580D9C5FF16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = ALUIBasic;
 			sourceTree = "<group>";
 		};
+		60B620C19DA10DB45649FC31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEA6C4DB5E228712FAAA88 /* Pods-ALUIBasic.debug.xcconfig */,
+				83C6578658A4358FCAC80545 /* Pods-ALUIBasic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA09C21A70A59580D9C5FF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F969EE08BE0C513109B6B1 /* Pods_ALUIBasic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E2EF51F293E48F200FD3ED1 /* Build configuration list for PBXNativeTarget "ALUIBasic" */;
 			buildPhases = (
+				0D112F7A65B644EA51F694BF /* [CP] Check Pods Manifest.lock */,
 				5E2EF507293E48F100FD3ED1 /* Sources */,
 				5E2EF508293E48F100FD3ED1 /* Frameworks */,
 				5E2EF509293E48F100FD3ED1 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D112F7A65B644EA51F694BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALUIBasic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E2EF507293E48F100FD3ED1 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		5E2EF520293E48F200FD3ED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBEA6C4DB5E228712FAAA88 /* Pods-ALUIBasic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		5E2EF521293E48F200FD3ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C6578658A4358FCAC80545 /* Pods-ALUIBasic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
